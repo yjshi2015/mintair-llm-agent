@@ -63,7 +63,7 @@ Next, use **Firecrawl** to gather Mintair’s documentation and create markdown 
 
 This command will generate markdown files containing Mintair’s official documentation.
 
-### 3. Convert Markdown to Snapshot
+### 3. Convert Markdown to [Snapshot](https://docs.gaianet.ai/creator-guide/knowledge/markdown)
 
 After obtaining the markdown files from Firecrawl, you need to convert them into a vector snapshot:
 
@@ -75,7 +75,7 @@ wasmedge --dir .:. \
 
 This command creates vector embeddings for the Mintair documentation.
 
-### 4. Customize Node Configuration
+### 4. [Customize Node Configuration](https://docs.gaianet.ai/node-guide/customize)
 
 Next, update the GaiaNet node configuration to include the Mintair snapshot you generated in the previous step. This ensures the LLM retrieves information directly from the Mintair knowledge base.
 
