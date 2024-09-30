@@ -88,7 +88,7 @@ gaianet config \
   --prompt-template gemma-instruct
 
 gaianet config \
-  --snapshot https://huggingface.co/datasets/Leon2470/RAG/resolve/main/Mintair-8962106312010627-2024-09-29-16-01-15.snapshot \
+  --snapshot https://huggingface.co/datasets/Gavin2015/Mintair/resolve/main/mintair-88687038271388-2024-09-30-13-25-46.snapshot \
   --system-prompt "You are a helpful, respectful, and honest Mintair assistant. You're an expert in node services and decentralized network infrastructure, and you always answer questions with clarity." \
   --rag-prompt "You're an expert in Mintair node services and decentralized network infrastructure. Use the following context to answer the user's question.\n"
 ```
